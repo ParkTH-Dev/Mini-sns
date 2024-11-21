@@ -7,16 +7,48 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Build outputs
 node_modules
 dist
 dist-ssr
+build/
+out/
 *.local
 
-# Editor directories and files
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Cache
+.cache/
+.parcel-cache
+coverage/
+.nyc_output
+
+# IDE
 .vscode/*
 !.vscode/extensions.json
+.vscode-test
 .idea
+.vs
+
+# OS
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other
 *.suo
 *.ntvs*
 *.njsproj
